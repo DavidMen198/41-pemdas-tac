@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/aHiTCHuq)
 # PEMDAS-TAC
 Converting Mathematical Equations into Three Address Code
 
@@ -163,7 +162,12 @@ You may RESUBMIT your work any number of times prior to the due date.
      - `MIPS <op>  <- Java operator`
        * add: +, sub: -, or: |, and: &, xor: ^,
 
-       
+      | TAC Equations                 | MIPS Instructions         |   
+      |-------------------------------|---------------------------|
+      | `return a`                    | `move $v0, a`             |
+      |                               | `jr $ra`                  |
+      |                               |                           |
+
       | TAC Equations                 | MIPS Instructions         |
       |-------------------------------|---------------------------|
       | `;`                           | `nop`                     |

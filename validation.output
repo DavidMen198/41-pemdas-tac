@@ -1,0 +1,43 @@
+make[1]: Entering directory '/home/david_cqo29/classes/comp122/deliverables/41-pemdas-tac-DavidMen198'
+java_subroutine volume_cube 3
+awk: fatal: cannot open file `submission.md' for reading: No such file or directory
+volume_cube.j:10: error: variable $v0 might not have been initialized
+   return $v0;
+          ^
+1 error
+mips_subroutine volume_cube 3
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          0; 0x00 00 00 00; 0b0000 0000 0000 0000 0000 0000 0000 0000;
+
+java_subroutine surface_area_box 3 3 3
+surface_area_box.j:9: error: cannot find symbol
+   return $v0;       
+          ^
+  symbol:   variable $v0
+  location: class surface_area_box
+1 error
+mips_subroutine surface_area_box 3 3 3
+#########################################
+# Above is the output from your program
+#########################################
+
+v0:          0; 0x00 00 00 00; 0b0000 0000 0000 0000 0000 0000 0000 0000;
+
+java_subroutine future_value 100000 3 1
+#########################################
+# Above is the output from your program
+#########################################
+
+v0: 1342894372; 0x50 0A F1 24; 0b0101 0000 0000 1010 1111 0001 0010 0100;
+
+mips_subroutine future_value 100000 3 1
+#########################################
+# Above is the output from your program
+#########################################
+
+v0: 1342894372; 0x50 0A F1 24; 0b0101 0000 0000 1010 1111 0001 0010 0100;
+
+make[1]: Leaving directory '/home/david_cqo29/classes/comp122/deliverables/41-pemdas-tac-DavidMen198'
